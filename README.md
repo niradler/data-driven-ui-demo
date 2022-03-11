@@ -2,7 +2,7 @@
 
 Demo to showcase how powerful is to create data driven application, allowing you to modify data in your application without changing the code.
 
-![demo](/niradler/data-driven-ui/tree/main/docs/demo.gif)
+![demo](/niradler/data-driven-ui/tree/master/docs/demo.gif)
 
 ## Setup
 
