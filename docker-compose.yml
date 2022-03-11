@@ -1,15 +1,15 @@
 version: '3.4'
 
 services:
-  # datadrivenui:
-  #   image: datadrivenui
-  #   build:
-  #     context: .
-  #     dockerfile: ./Dockerfile
-  #   environment:
-  #     NODE_ENV: production
-  #   ports:
-  #     - 4000:4000
+  datadrivenui:
+    image: datadrivenui
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 4000:4000
   adminer:
     image: adminer:latest
     container_name: adminer
