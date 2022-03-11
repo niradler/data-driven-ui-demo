@@ -5,6 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+    "server:migrate": "npm run migrate --workspace=server",
     "server:watch": "npm run watch --workspace=server",
     "client:start": "npm run start --workspace=client"
   },
