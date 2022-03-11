@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "watch": "nodemon src/index.js",
+    "gql": "open-cli http://localhost:4000/graphiql",
+    "migrate": "knex migrate:latest",
+    "migrate:down": "knex migrate:down",
+    "seed": "knex seed:run"
+  },
+  "keywords": [],
+  "author": "Nir Adler",
+  "license": "ISC",
+  "dependencies": {
+    "@graphile-contrib/pg-simplify-inflector": "^6.1.0",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "knex": "^1.0.3",
+    "knex-migrate": "^1.7.4",
+    "pg": "^8.7.3",
+    "postgraphile": "^4.12.9"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}

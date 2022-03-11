@@ -1,0 +1,26 @@
+{
+  "name": "data-driven-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "npm run watch --workspace=server & npm run start --workspace=client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niradler/data-driven-ui.git"
+  },
+  "keywords": [],
+  "author": "Nir Adler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niradler/data-driven-ui/issues"
+  },
+  "homepage": "https://github.com/niradler/data-driven-ui#readme",
+  "devDependencies": {},
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}
